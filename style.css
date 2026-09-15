@@ -1,141 +1,65 @@
-/* Configurações gerais */
-* {
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f0ff;
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    padding: 30px;
     color: #333;
-    min-height: 100vh;
-    padding: 40px 20px;
-}
-
-/* Cartão principal */
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 /* Título */
 h1 {
     background-color: white;
-    width: 100%;
-    max-width: 700px;
-    padding: 30px;
-    border-radius: 15px 15px 0 0;
-    text-align: center;
     color: #1e3c72;
-    font-size: 28px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Foto */
 img {
-    width: 180px;
-    height: 180px;
+    display: block;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid white;
-    margin: 20px 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
 }
 
-/* Parágrafo do email */
+/* Texto */
 p {
     background-color: white;
-    width: 100%;
-    max-width: 700px;
-    padding: 20px 30px;
+    padding: 15px;
     text-align: center;
-    border-bottom: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+/* Títulos */
+h2 {
+    color: #1e3c72;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Listas */
+ul {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+/* Itens da lista */
+li {
+    margin: 10px;
 }
 
 /* Links */
 a {
     color: #2563eb;
     text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
 }
 
 a:hover {
-    color: #1d4ed8;
     text-decoration: underline;
-}
-
-/* Títulos das seções */
-h2 {
-    width: 100%;
-    max-width: 700px;
-    background-color: #f8fafc;
-    color: #1e3c72;
-    padding: 20px 30px 10px;
-    font-size: 22px;
-}
-
-/* Listas */
-ul {
-    width: 100%;
-    max-width: 700px;
-    background-color: white;
-    padding: 10px 30px 25px 50px;
-    list-style-type: none;
-}
-
-/* Itens das listas */
-li {
-    background-color: #f1f5f9;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 8px;
-    border-left: 4px solid #2563eb;
-    transition: 0.3s;
-}
-
-/* Efeito ao passar o mouse */
-li:hover {
-    transform: translateX(5px);
-    background-color: #e0f2fe;
-}
-
-/* Arredondamento da última seção */
-body > ul:last-of-type {
-    border-radius: 0 0 15px 15px;
-}
-
-/* Responsividade para celular */
-@media (max-width: 600px) {
-    body {
-        padding: 20px 10px;
-    }
-
-    h1 {
-        font-size: 22px;
-        padding: 25px 15px;
-    }
-
-    /* Foto no celular */
-    img {
-        width: 140px;
-        height: 140px;
-    }
-
-    h2 {
-        font-size: 19px;
-        padding: 18px 20px 10px;
-    }
-
-    p {
-        padding: 18px 15px;
-    }
-
-    ul {
-        padding-left: 35px;
-        padding-right: 15px;
-    }
 }
 

@@ -33,6 +33,17 @@ h1 {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* Foto */
+img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
 /* Parágrafo do email */
 p {
     background-color: white;
@@ -107,6 +118,12 @@ body > ul:last-of-type {
         padding: 25px 15px;
     }
 
+    /* Foto no celular */
+    img {
+        width: 140px;
+        height: 140px;
+    }
+
     h2 {
         font-size: 19px;
         padding: 18px 20px 10px;
@@ -121,3 +138,4 @@ body > ul:last-of-type {
         padding-right: 15px;
     }
 }
+
